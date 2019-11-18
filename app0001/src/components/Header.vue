@@ -18,8 +18,8 @@ export default {
 <style scoped>
   .header{
     width: 100%;
-    height: 35px;
-    background:rgba(255,20,147,0.8);
+    height: 40px;
+    background:rgb(255,20,147);
     text-align: center;
     line-height: 35px;
     position: fixed;

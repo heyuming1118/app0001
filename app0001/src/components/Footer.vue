@@ -2,12 +2,12 @@
   <div class="footer">
     <ul>
       <router-link tag="li" to="/Home">
-        <i class="iconfont icon-huaban-"></i>
-        <p>首页</p>
+        <i class="iconfont icon-liebiaodaohang_yingshi"></i>
+        <p>电影</p>
       </router-link>
       <router-link tag="li" to="/movieList">
-        <i class="iconfont icon-liebiaodaohang_yingshi"></i>
-        <p>列表</p>
+      <i class="iconfont icon-huaban-"></i>
+        <p>影院</p>
       </router-link>
       <router-link tag="li" to="/personal">
         <i class="iconfont icon-gerenzhongxin"></i>
@@ -31,15 +31,17 @@ export default {
  .footer{
    width: 100%;
    height: 60px;
-   border-top: 1px solid #cc0099;
    position: fixed;
-   bottom: 1px;
+   bottom: 0;
    left: 0;
  }
   .footer ul{
     display: flex;
     list-style: none;
     padding-left: 0;
+    background-color: aliceblue;
+    border-top: 1px solid #cc0099;
+    padding: 5px;
   }
   .footer ul li{
     flex: 1;

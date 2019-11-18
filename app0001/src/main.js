@@ -2,9 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import '@/assets/css/font_1512524_nx8fjy8j1r/iconfont.css'
+import './assets/css/font/iconfont.css'
+import Vant from 'vant';
+import 'vant/lib/index.css';
+import axios from 'axios'
 
+Vue.prototype.axios = axios;
 Vue.config.productionTip = false
+Vue.use(Vant);
 
 new Vue({
   router,

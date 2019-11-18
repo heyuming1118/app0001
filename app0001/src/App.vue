@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <keep-alive>
+      <router-view/>
+    </keep-alive>
     
-    </div>
-    <router-view/>
   </div>
 </template>
 <script>
@@ -12,5 +12,5 @@ export default {
 }
 </script>
 <style>
-#app{ margin-top: 40px;}
+#app{ position: relative;top:45px;}
 </style>
